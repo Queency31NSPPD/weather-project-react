@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App"> 
      <h1> Weather App</h1>
-     <p>
+     <footer>
      This project was Coded by {""}
      <a
           className="App-link"
@@ -24,7 +24,7 @@ function App() {
         >
         Github
         </a>
-          </p>
+          </footer>
     </div>
   );
 }
