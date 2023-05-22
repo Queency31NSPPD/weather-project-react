@@ -1,9 +1,10 @@
-
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App"> 
+     <div class="container">
      <h1> Weather App</h1>
      <footer>
      This project was Coded by {""}
@@ -26,7 +27,8 @@ function App() {
         </a>
           </footer>
     </div>
+    </div>
   );
 }
 
-export default App;
+
