@@ -6,12 +6,12 @@ import './Weather.css';
 export default function App() {
   return (
     <div className="App"> 
-     <div class="container">
+     <div className="container">
      <Weather />
      <footer>
      This project was Coded by {""}
      <a
-          className="App-link"
+          className="App"
           href="https://www.linkedin.com/in/bridget-nnenna-chukwu-82a30b149"
           target="_blank"
           rel="noopener noreferrer"
@@ -20,7 +20,7 @@ export default function App() {
         </a>
        {""} and open-sourced on {""}
         <a
-          className="App-link"
+          className="App"
           href="https://github.com/Queency31NSPPD/weather-project-react"
           target="_blank"
           rel="noopener noreferrer"

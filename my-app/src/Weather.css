@@ -27,6 +27,7 @@ border-radius: 4px;
 }
 
 .Weather img{
+    margin-top: -24px;
     height: 64px;
     width: 64px;
     margin-right: 10px;
@@ -39,7 +40,6 @@ border-radius: 4px;
     font-weight: 400;
     position: relative;
     top: -34px;
-    margin-left: 5px;
     line-height: 1;
 }
 
@@ -47,6 +47,6 @@ border-radius: 4px;
     font-weight: bold;
     color: black;
     font-size: 64px;
-    line-height: 64px;
+    line-height: 60px;
     font-weight: 400;
 }
